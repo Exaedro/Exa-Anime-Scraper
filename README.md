@@ -27,10 +27,5 @@ const data = await Anime.getPopular();
 const data = await Anime.getLatest();
 ```
 
-- #### getFromLink()
-```js
-const data = await Anime.getFromLink('https://www.animefenix.com/kawaii-dake-ja-nai-shikimori-san');
-```
-
 ## Información extra
 Discord: Exaedro#7841

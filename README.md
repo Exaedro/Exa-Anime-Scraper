@@ -19,7 +19,7 @@ const data = await Anime.search('wonder egg priority');
 
 - #### getFromLink(query)
 ```js
-const data = await Anime.getFromLink('https://www.animefenix.com/one-piece')
+const data = await Anime.getFromLink('https://www.animefenix.com/one-piece');
 ```
 
 - #### getPopular()

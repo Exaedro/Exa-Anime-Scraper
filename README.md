@@ -17,6 +17,11 @@ const Anime = new AnimeScraper.animefenix();
 const data = await Anime.search('wonder egg priority');
 ```
 
+- #### getFromLink()
+```js
+const data = await Anime.getFromLink('https://www.animefenix.com/one-piece')
+```
+
 - #### getPopular()
 ```js
 const data = await Anime.getPopular();
